@@ -1,0 +1,65 @@
+
+/* import muli fonts */
+@import url("/src/assets/fonts/style.css");
+
+/* import vueform slider css */
+@import url("@vueform/slider/themes/default.css");
+
+/* import tailwind css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* define custom syltes */
+* {
+  user-select: none;
+}
+
+.czarna-container {
+  width: 100%;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+@media screen and (max-width: 1536px) {
+  .czarna-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .czarna-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .czarna-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .czarna-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.text-custom-gray {
+  color: #525F7A;
+}
+
+.czarna-btn-red {
+  background: #e7334b;
+  border: 1px solid transparent;
+}
+
+.czarna-btn-red:hover {
+  background: #CC2D42;
+  color: white;
+}
